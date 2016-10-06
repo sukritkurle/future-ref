@@ -1,5 +1,4 @@
 Scheduling tasks with celery.
-Stack: MySQL, Python
 
 Tests are stored in a MySQL DB.
 Schedules are configured in celeryconfig.py
