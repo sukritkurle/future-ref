@@ -1,0 +1,9 @@
+Scheduling tasks with celery.
+Stack: MySQL, Python
+
+Tests are stored in a MySQL DB.
+Schedules are configured in celeryconfig.py
+
+Run celery with: celery -A test_celery worker --loglevel=info --beat
+
+Run flower(celery dashboard) with : celery -A test_celery flower

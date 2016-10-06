@@ -19,6 +19,6 @@ CELERYBEAT_SCHEDULE={
 
     'Weekly_Test_Scheduler':{
         'task':'test_celery.tasks.weekly_test_scheduler',
-        'schedule': crontab(minute=''),
+        'schedule': crontab(minute='*/1'),
     }
 }
